@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Калькулятор</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="calculator">
+        <div class="top">
+            <input id="display" disabled name="" type="text" value='0'/>
+        </div>
+        <div class="keys">
+            <span class="number">7</span>
+            <span class="number">8</span>
+            <span class="number">9</span>
+            <span class="operation">+</span>
+            <span class="number">4</span>
+            <span class="number">5</span>
+            <span class="number">6</span>
+            <span class="operation">-</span>
+            <span class="number">1</span>
+            <span class="number">2</span>
+            <span class="number">3</span>
+            <span class="operation">/</span>
+            <span class="number">0</span>
+            <span id="decimal">.</span>
+            <span id="result" class="operation">=</span>
+            <span class="operation">^</span>
+            <span style="float: right" class="operation">*</span>
+            <span style="float: right" class="operation">√</span>
+            <span id="c" class="operation clear_btn">C</span>
+            <span id="ce" class="operation clear_btn">CE</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>addEvents()</script>
+  </body>
+</html>
