@@ -8,7 +8,9 @@
     "webpack-cli": "^4.2.0",
     "webpack": "^5.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^8.55.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
